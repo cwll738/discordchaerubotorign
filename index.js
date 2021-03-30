@@ -51,7 +51,7 @@ client.on('message', (message) => {
             message.reply('Wls원 정진원.')
     }else{
         if(message.content === '+별난닭') {
-            message.reply('별난닭은 최민혁 입니다.')
+            message.reply('별난닭은 최민혁 입니다!.')
     }
 }}});
 
