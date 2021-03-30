@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+const token = process.env.token
+
 const { readdirSync } = require('fs');
 const { join } = require('path');
 
@@ -57,4 +59,4 @@ client.on('message', (message) => {
 
 
 
-client.login(process.env.TOKEN);
+client.login(token);
